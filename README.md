@@ -16,7 +16,7 @@ This is not a conventional emoji picker. The product is the radial interaction i
 - Caret-aware insertion that fires input events X can see
 - Isolated Shadow DOM UI so X styles cannot leak in or out
 - Settings page with layout, content editor, appearance, and a live preview that uses the **same** wheel engine
-- **Shift+V** pins the wheel on screen for inspection (press again to hide). Mouse trigger and release-to-insert are unchanged.
+- **Ctrl+V** pins the wheel on screen for inspection (press again to hide). Mouse trigger and release-to-insert are unchanged.
 
 ## Development
 

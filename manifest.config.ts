@@ -1,7 +1,7 @@
 export const manifest = {
   manifest_version: 3,
   name: "RadialKey",
-  version: "0.1.19",
+  version: "0.1.20",
   description: "A fast, customizable radial writing and reaction wheel for X.com.",
   permissions: ["storage"],
   host_permissions: [

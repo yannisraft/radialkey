@@ -90,7 +90,7 @@ export function OptionsApp() {
         {section === "activation" ? (
           <Section
             title="Activation"
-            description="The wheel only appears while you are writing, and never hijacks ordinary right-click. Shift+V pins the wheel on screen for styling (press again to hide)."
+            description="The wheel only appears while you are writing, and never hijacks ordinary right-click. Ctrl+V pins the wheel on screen for styling (press again to hide)."
           >
             <ActivationSection
               value={settings.activation}
