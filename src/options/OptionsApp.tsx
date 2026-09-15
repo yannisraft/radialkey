@@ -59,9 +59,17 @@ export function OptionsApp() {
     <div className="app">
       <nav className="nav" aria-label="Settings">
         <div className="brand">
-          <div className="brand-mark" aria-hidden="true">
-            ⌖
-          </div>
+          <img
+            className="brand-mark"
+            src={
+              typeof chrome !== "undefined" && chrome.runtime?.getURL
+                ? chrome.runtime.getURL("icons/icon48.png")
+                : "/icons/icon48.png"
+            }
+            alt=""
+            width={36}
+            height={36}
+          />
           <div>
             <strong>RadialKey</strong>
             <small>Radial writing wheel</small>

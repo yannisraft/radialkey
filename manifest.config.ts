@@ -1,7 +1,7 @@
 export const manifest = {
   manifest_version: 3,
   name: "RadialKey",
-  version: "0.1.14",
+  version: "0.1.19",
   description: "A fast, customizable radial writing and reaction wheel for X.com.",
   permissions: ["storage"],
   host_permissions: [
@@ -19,6 +19,7 @@ export const manifest = {
     default_title: "RadialKey Settings",
     default_icon: {
       "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png",
     },
@@ -37,6 +38,7 @@ export const manifest = {
   ],
   icons: {
     "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png",
   },

@@ -29,13 +29,14 @@ export function appearanceVars(
   const alpha = appearance.transparency;
   const dark = theme === "dark";
   return {
-    "--rx-bg": dark ? `rgba(20, 20, 24, ${alpha})` : `rgba(246, 246, 248, ${alpha})`,
-    "--rx-wedge": dark ? "rgba(255, 255, 255, 0.045)" : "rgba(24, 24, 28, 0.05)",
-    "--rx-wedge-active": dark ? "rgba(255, 255, 255, 0.14)" : "rgba(24, 24, 28, 0.12)",
-    "--rx-border": dark ? "rgba(255, 255, 255, 0.08)" : "rgba(24, 24, 28, 0.1)",
+    "--rx-bg": dark ? `rgba(14, 20, 16, ${alpha})` : `rgba(246, 246, 248, ${alpha})`,
+    "--rx-wedge": dark ? "rgba(45, 142, 90, 0.14)" : "rgba(45, 142, 90, 0.08)",
+    "--rx-wedge-active": "#3c413e61",
+    "--rx-border": dark ? "rgba(45, 142, 90, 0.42)" : "rgba(45, 142, 90, 0.28)",
     "--rx-text": dark ? "#f4f4f5" : "#18181b",
     "--rx-muted": dark ? "#b7b7c2" : "#52525b",
-    "--rx-glow": dark ? "rgba(255, 255, 255, 0.2)" : "rgba(24, 24, 28, 0.16)",
+    "--rx-glow": "#424f4880",
+    "--rx-cancel": dark ? "rgba(8, 14, 10, 0.82)" : "rgba(0, 0, 0, 0.08)",
     "--rx-blur": `${appearance.blur}px`,
     "--rx-scale": String(appearance.scale),
     "--rx-anim-ms": `${Math.round(120 / appearance.animationSpeed)}ms`,
