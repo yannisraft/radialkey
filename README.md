@@ -1,5 +1,9 @@
 # RadialKey
 
+<p align="center">
+  <img src="public/icons/radial-key-logo.png" alt="RadialKey logo" width="180" />
+</p>
+
 A Chrome extension that adds a game-style **radial writing / reaction wheel** to [x.com](https://x.com). Hold your trigger (default **Ctrl + Right Click**) while writing in a composer, aim with the mouse, and release to insert an emoji, reaction, or snippet at the caret.
 
 This is not a conventional emoji picker. The product is the radial interaction itself. Items are generic actions (`insert-text` today) so more action types can be added later.
