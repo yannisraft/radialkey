@@ -11,9 +11,9 @@ export function triggerMatches(event: MouseEvent, trigger: TriggerType): boolean
 
 export function isDebugToggle(event: KeyboardEvent): boolean {
   return (
-    event.code === "KeyV" &&
+    event.code === "KeyG" &&
     event.ctrlKey &&
-    !event.shiftKey &&
+    event.shiftKey &&
     !event.altKey &&
     !event.metaKey &&
     !event.repeat

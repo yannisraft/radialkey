@@ -43,7 +43,7 @@ export function PreviewPlayground({ settings }: Props) {
     <div className="playground" ref={areaRef}>
       <p className="hint">
         Preview uses the same radial engine as X. Focus the composer and press{" "}
-        {triggerLabel}. Ctrl+V pins the wheel so you can inspect it.
+        {triggerLabel}. Ctrl+Shift+G pins the wheel so you can inspect it.
       </p>
       <textarea
         aria-label="Preview composer"
